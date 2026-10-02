@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#07111F"/>
+  <circle cx="400" cy="225" r="320" fill="url(#paint_radial)" opacity="0.4"/>
+  <rect x="120" y="60" width="560" height="330" rx="20" fill="#0B1629" stroke="rgba(56, 189, 248, 0.2)" stroke-width="2"/>
+  <rect x="144" y="84" width="512" height="74" rx="12" fill="#050D19" stroke="rgba(56, 189, 248, 0.15)"/>
+  <text x="164" y="112" fill="#94A3B8" font-family="monospace" font-size="14">25 × sin(30) + √144 =</text>
+  <text x="636" y="142" text-anchor="end" fill="#22D3EE" font-family="monospace" font-weight="bold" font-size="28">24.5</text>
+  <g fill="#121F38" stroke="rgba(56, 189, 248, 0.12)">
+    <rect x="144" y="180" width="90" height="40" rx="8"/>
+    <rect x="250" y="180" width="90" height="40" rx="8"/>
+    <rect x="355" y="180" width="90" height="40" rx="8"/>
+    <rect x="460" y="180" width="90" height="40" rx="8"/>
+    <rect x="566" y="180" width="90" height="40" rx="8" fill="url(#paint_accent)"/>
+    <rect x="144" y="235" width="90" height="40" rx="8"/>
+    <rect x="250" y="235" width="90" height="40" rx="8"/>
+    <rect x="355" y="235" width="90" height="40" rx="8"/>
+    <rect x="460" y="235" width="90" height="40" rx="8"/>
+    <rect x="566" y="235" width="90" height="40" rx="8"/>
+    <rect x="144" y="290" width="90" height="40" rx="8"/>
+    <rect x="250" y="290" width="90" height="40" rx="8"/>
+    <rect x="355" y="290" width="90" height="40" rx="8"/>
+    <rect x="460" y="290" width="90" height="40" rx="8"/>
+    <rect x="566" y="290" width="90" height="40" rx="8" fill="url(#paint_accent)"/>
+    <rect x="144" y="345" width="90" height="40" rx="8"/>
+    <rect x="250" y="345" width="90" height="40" rx="8"/>
+    <rect x="355" y="345" width="90" height="40" rx="8"/>
+    <rect x="460" y="345" width="90" height="40" rx="8"/>
+    <rect x="566" y="345" width="90" height="40" rx="8"/>
+  </g>
+  <defs>
+    <radialGradient id="paint_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 225) rotate(90) scale(320)">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paint_accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+</svg>

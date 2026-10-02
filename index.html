@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3f7f4" />
+    <meta name="description" content="A simple calculator with basic arithmetic and trigonometry." />
+    <title>DELUX | Simple Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="page-header">
+        <a class="brand" href="./" aria-label="NexCalc home">
+          <span class="brand-mark" aria-hidden="true">D</span>
+          <span>DELUX CALC</span>
+        </a>
+      </header>
+
+      <section class="calculator" aria-label="Calculator">
+        <div class="calculator-heading">
+          
+          <button class="angle-button" id="angle-mode" type="button" aria-label="Angle mode: degrees" aria-pressed="false">DEG</button>
+        </div>
+
+        <div class="display" aria-label="Calculator display">
+          <p class="expression" id="expression" aria-live="polite">Enter a calculation</p>
+          <output class="result" id="result" aria-live="assertive">0</output>
+        </div>
+
+        <div class="keypad" role="group" aria-label="Calculator keys">
+          <button class="key key-utility" type="button" data-input="clear" aria-label="Clear">AC</button>
+          <button class="key key-utility" type="button" data-input="backspace" aria-label="Backspace">DEL</button>
+          <button class="key key-utility" type="button" data-input="(" aria-label="Open parenthesis">(</button>
+          <button class="key key-operator" type="button" data-input=")" aria-label="Close parenthesis">)</button>
+
+          <button class="key key-function" type="button" data-input="sin(" aria-label="Sine">sin</button>
+          <button class="key key-function" type="button" data-input="cos(" aria-label="Cosine">cos</button>
+          <button class="key key-function" type="button" data-input="tan(" aria-label="Tangent">tan</button>
+          <button class="key key-operator" type="button" data-input="/" aria-label="Divide">÷</button>
+
+          <button class="key" type="button" data-input="7">7</button>
+          <button class="key" type="button" data-input="8">8</button>
+          <button class="key" type="button" data-input="9">9</button>
+          <button class="key key-operator" type="button" data-input="*" aria-label="Multiply">×</button>
+
+          <button class="key" type="button" data-input="4">4</button>
+          <button class="key" type="button" data-input="5">5</button>
+          <button class="key" type="button" data-input="6">6</button>
+          <button class="key key-operator" type="button" data-input="-" aria-label="Subtract">−</button>
+
+          <button class="key" type="button" data-input="1">1</button>
+          <button class="key" type="button" data-input="2">2</button>
+          <button class="key" type="button" data-input="3">3</button>
+          <button class="key key-operator" type="button" data-input="+" aria-label="Add">+</button>
+
+          <span aria-hidden="true"></span>
+          <button class="key" type="button" data-input="0">0</button>
+          <button class="key" type="button" data-input=".">.</button>
+          <button class="key key-equals" type="button" data-input="equals" aria-label="Calculate">=</button>
+        </div>
+
+       
+      </section>
+  </body>
+</html>
